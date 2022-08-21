@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+html {
+    margin-top: 100px;
+    
+}
+
+img {
+    width: 150px;
+}
+
+.bg {
+    background-color: #DBDFFD;
+}
+
+.textInput {
+    width: 100%;
+    height: 100%;
+}
+
+.submit{
+	margin-top: 6px;
+    background-color: #242F9B;
+    color: #ffffff;
+}
+
+
+ .countercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+}
+  
+/*apply css properties to button tag*/
+  
+.counterUP, .counterDown  {
+    display: flex;
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #242F9B;
+    color: white;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    border-color: #242F9B;
+}
+  
+/*apply hover effect to button tag*/
+  
+.counterUP:hover {
+    background-color: green;
+    
+}
+.counterDown:hover {
+    background-color: red;
+}
+  
+/*apply css properties to counter input tag*/
+  
+.counterInput {
+    color: black;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.tablestyle {
+    width: 100%;
+    border: none; 
+}
+  .help {
+    background-color: #242F9B;
+    color: #ffffff;
+    width: 50%;
+    border-color: #242F9B;
+    border-radius: 4px;
+  }
+.addItem {
+    background-color: #242F9B;
+    color: #ffffff;
+    width: 50%;
+    border-color: #242F9B;
+    border-radius: 4px;
+    
+}
+.help:hover {
+    background-color: #1f2985;
+}
+.addItem:hover {
+    background-color: #1f2985;
+}
+.tableColors {
+    background-color: #242F9B;
+    color: #ffffff;
+    
+}
